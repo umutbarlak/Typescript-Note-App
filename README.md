@@ -1,31 +1,41 @@
-# React + TypeScript + Vite
+<h1>Typescript Note-App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje React ve Typescript kullanılarak oluşturulmuş bir projesidir.
 
-Currently, two official plugins are available:
+Kullanılan özellikler;
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Bootstrap, React-Bootstrap
 
-## Expanding the ESLint configuration
+- React-Router-Dom
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React-Select
 
-- Configure the top-level `parserOptions` property like this:
+- React-Markdown
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- uuid
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Typescript-Note-App
+Projenin bize sunduğu özellikler;
+
+- Ana ekranda bizi notların listelendiği ve notları filtreleme alanı bulunmaktadır,
+
+- Filtreleme alanında başlığa veya etikete göre filtreleme yapabiliriz.
+
+- Oluştur butonuyla bizi url e gönderdiği new parametreli sayfaya yönlendiriyor.
+
+- Bu sayfada yeni bir not ekleyebilir ve eklerken daha önce eklenmiş etiketleri görebilir ve seçebiliriz.
+
+- Note cardlara tıklandığında bizleri notun id'sine göre detay sayfasına yönlendiriyor,
+
+- Burada note'un detaylarını görebiliriz. Notun içerik alanı için kullandığımız react-markdown sayesinden yazı düzenimizi stillendirebiliriz.
+
+- Noteları buradan silebilir veya düzenleme ekranına geçebiliriz.
+
+- Düzenleme ekranında, değişiklik yapabilir veya iptal edebiliriz.
+
+<h2>Kullanılan Diller</h2>
+
+Bu projede React, Tailwind kullanılmıştır
+
+<h2>Ekran Videosu</h2>
+
+![](noteapp.gif)
