@@ -34,7 +34,7 @@ Projenin bize sunduğu özellikler;
 
 <h2>Kullanılan Diller</h2>
 
-Bu projede React, Tailwind kullanılmıştır
+Bu projede React ve Typescript kullanılmıştır
 
 <h2>Ekran Videosu</h2>
 
